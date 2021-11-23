@@ -4,6 +4,10 @@ export const CanDoContainer = styled.div`
   margin: 100px 0px;
   font-family: "Poppins", sans-serif;
   padding: 0px 10%;
+
+  @media screen and (max-width:568px){
+    margin:50px 0px;
+  }
 `;
 export const CanDoTitle = styled.h2`
   font-size: 48px;
@@ -12,6 +16,10 @@ export const CanDoTitle = styled.h2`
   line-height: 70.75px;
   letter-spacing: 0.02rem;
   margin-bottom: 50px;
+
+  @media screen and (max-width:568px){
+    font-weight:35px;
+  }
 `;
 export const StrongTitle = styled.strong`
   color: #ffcd1a;

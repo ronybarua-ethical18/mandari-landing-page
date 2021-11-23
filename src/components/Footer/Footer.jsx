@@ -10,7 +10,8 @@ import {
   Address,
   FooterImage,
   FooterTitle,
-  ImageWrapper
+  ImageWrapper,
+  InfoTitle,
 } from "./FooterStyles";
 import brand from "../../images/10.png";
 const Footer = () => {
@@ -23,12 +24,12 @@ const Footer = () => {
         justifyContent="flex-start"
         alignItems="flex-start"
       >
-        <Grid item lg={3} md={6} sm={6} xs={12}>
+        <Grid item lg={3} md={6} sm={6} xs={6}>
           <ImageWrapper>
             <FooterImage src={brand} alt="brand" />
           </ImageWrapper>
         </Grid>
-        <Grid item lg={3} md={6} sm={6} xs={12}>
+        <Grid item lg={3} md={6} sm={6} xs={6}>
           <ContactInfo>
             <Title>MANDARI</Title>
             <Terms>
@@ -38,7 +39,7 @@ const Footer = () => {
             </Terms>
           </ContactInfo>
         </Grid>
-        <Grid item lg={3} md={6} sm={6} xs={12}>
+        <Grid item lg={3} md={6} sm={6} xs={6}>
           <ContactInfo>
             <Title>KONTAKT</Title>
             <Terms>
@@ -47,16 +48,16 @@ const Footer = () => {
             </Terms>
           </ContactInfo>
         </Grid>
-        <Grid item lg={3} md={6} sm={6} xs={12}>
+        <Grid item lg={3} md={6} sm={6} xs={6}>
           <AddressBar>
             <Address>
-              <strong>Adresse:</strong> <br />
+              <InfoTitle>Adresse:</InfoTitle> <br />
               Hafrsfjordgata 29 A, 0268 Oslo
             </Address>
+
             <Address>
-              <strong>Telefon</strong> <br />
+              <InfoTitle>Telefon</InfoTitle> <br />
               41498616 /95828903 <br />
-              E-post <br />
               Serina.bru@mandari.no (finnes det e-post på kontakt@mandari.no ?)
             </Address>
           </AddressBar>

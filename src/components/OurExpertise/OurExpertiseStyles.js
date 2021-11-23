@@ -2,8 +2,13 @@ import styled from "styled-components";
 
 export const OurExpertiseContainer = styled.div`
   margin-bottom: 100px;
-  padding: 100px  10%;
+  padding: 100px 10%;
   background: #fafaff;
+
+  @media screen and (max-width: 568px) {
+    padding: 50px 10%;
+    margin-bottom: 50px;
+  }
 `;
 
 export const LeftContent = styled.div`
@@ -19,8 +24,8 @@ export const Title = styled.h2`
   text-transform: capitalize;
   color: #14183e;
 
-  @media screen and (max-width:512px){
-    font-size:40px;
+  @media screen and (max-width: 512px) {
+    font-size: 40px;
   }
 `;
 
@@ -38,11 +43,10 @@ export const Paragraph = styled.p`
   color: #5e6282;
 `;
 
-export const RightContent = styled.div`
-`;
+export const RightContent = styled.div``;
 
 export const ImageWrapper = styled.div`
-position:relative;
+  position: relative;
 `;
 
 export const FormalImage = styled.img`
@@ -50,9 +54,14 @@ export const FormalImage = styled.img`
 `;
 
 export const VectorImage = styled.img`
-position:absolute;
-top:25px;
-right:0;
-width:90px;
-height:90px;
-`
+  position: absolute;
+  top: 25px;
+  right: 0;
+  width: 90px;
+  height: 90px;
+
+  @media screen and (max-width: 640px) {
+    width: 50px;
+    height: 50px;
+  }
+`;

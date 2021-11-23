@@ -5,6 +5,10 @@ export const NewsLetterContainer = styled.div`
   padding: 100px 10%;
   margin-bottom:100px;
   text-align: center;
+
+  @media screen and  (max-width:568px){
+    margin-bottom:50px;
+  }
 `;
 
 export  const ContentWrapper = styled.div`
@@ -17,7 +21,7 @@ export const Title = styled.h3`
   font-family: Poppins;
   font-style: normal;
   font-weight: 600;
-  margin-top:0;
+  margin-bottom:20px;
   font-size: 33px;
   line-height: 54px;
   text-align: center;

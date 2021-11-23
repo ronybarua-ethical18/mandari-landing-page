@@ -33,14 +33,23 @@ export const Feedback = styled.p`
   line-height: 32px;
   color: #5e6282;
   margin-bottom: 30px;
+
+  @media screen and (max-width:768px){
+    font-size:14px;
+    margin-top:10px;
+  }
 `;
 export const Name = styled.h5`
   font-family: Poppins;
   font-style: normal;
   font-weight: 600;
-  margin-bottom: -20px;
+  margin-bottom:5px;
   font-size: 18px;
   color: #5e6282;
+
+  @media screen and (max-width:768px){
+    font-size:16px;
+  }
 
 `;
 export const Title = styled.h5`

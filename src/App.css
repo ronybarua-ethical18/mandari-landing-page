@@ -1,3 +1,8 @@
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+}
 :root{
     scrollbar-color: #E5F2FE !important;
     scrollbar-width: thin !important;

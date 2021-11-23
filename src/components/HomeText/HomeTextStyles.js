@@ -1,10 +1,10 @@
 import styled from "styled-components";
 
 export const HomeTextContainer = styled.div`
-  padding: 50px 15% 50px 10%;
+  padding: 50px 25% 50px 10%;
   text-align: left;
   position: relative;
-  @media screen and (max-width: 512px) {
+  @media screen and (max-width: 992px) {
     padding: 30px 10%;
   }
 `;
@@ -27,6 +27,7 @@ export const Dash = styled.div`
   width: 65px;
   border: 6px solid #000;
   margin-top: 20px;
+  margin-bottom: 20px;
   border-radius: 25px;
 `;
 export const SubTitle = styled.h3`

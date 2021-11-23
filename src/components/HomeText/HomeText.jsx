@@ -8,7 +8,7 @@ const HomeText = () => {
     <HomeTextContainer>
       <Title>Work the way that works for you</Title>
       <Dash></Dash>
-      <SubTitle>Create, Build, Collaborate and ship products <br/> very faster </SubTitle>
+      <SubTitle>Create, Build, Collaborate and ship products very faster </SubTitle>
       <FillShape src={fill} alt="fill"/>
       <SquareShape src={square} alt="square"/>
       <RoundShape src={round} alt="round"/>
