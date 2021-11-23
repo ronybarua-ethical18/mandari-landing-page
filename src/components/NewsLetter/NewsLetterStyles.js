@@ -2,22 +2,37 @@ import styled from "styled-components";
 
 export const NewsLetterContainer = styled.div`
   background: #ffcd1a;
-  padding: 100px 20px;
+  padding: 100px 10%;
+  margin-bottom:100px;
   text-align: center;
 `;
+
+export  const ContentWrapper = styled.div`
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:center;
+`
 export const Title = styled.h3`
   font-family: Poppins;
   font-style: normal;
   font-weight: 600;
+  margin-top:0;
   font-size: 33px;
   line-height: 54px;
   text-align: center;
   color: #050505;
+
+  @media screen and (max-width:512px){
+    font-size:30px;
+    line-height: 46px;
+  }
 `;
 
 export const Form = styled.div`
   display: flex;
   justify-content: center;;
+  margin-bottom:10px;
 `;
 export const Input = styled.input`
   background: #ffffff;

@@ -8,11 +8,18 @@ export const CarouselContainer = styled.div`
     0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185),
     0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
   border-radius: 10px;
+  width:100%;
 `;
 export const CarouselItem = styled.div`
   display: flex;
   padding: 20px;
   background: #ffffff;
+
+  @media screen and (max-width:768px){
+    display:flex;
+    flex-direction:column;
+
+  }
 `;
 export const TestimonialContainer = styled.div`
   text-align: left;
@@ -31,8 +38,17 @@ export const Name = styled.h5`
   font-family: Poppins;
   font-style: normal;
   font-weight: 600;
-  margin: 0px;
+  margin-bottom: -20px;
   font-size: 18px;
+  color: #5e6282;
+
+`;
+export const Title = styled.h5`
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
   color: #5e6282;
 `;
 
@@ -42,12 +58,4 @@ export const CarouselImage = styled.img`
   border-radius: 50%;
   margin-right: 20px;
   border:1px solid lightgray;
-`;
-export const Title = styled.h5`
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 21px;
-  color: #5e6282;
 `;

@@ -18,7 +18,7 @@ const CanDo = () => {
         What you <StrongTitle>can do?</StrongTitle>
       </CanDoTitle>
       <Grid container spacing={4} justifyContent="center">
-        <Grid item md={3}>
+        <Grid item lg={3} md={4} sm={6} xs={12}>
           <ContentWrapper>
             <Content>
               <Title>TekVenn</Title>
@@ -30,7 +30,7 @@ const CanDo = () => {
             <Overlay />
           </ContentWrapper>
         </Grid>
-        <Grid item md={3}>
+        <Grid item lg={3} md={4} sm={6} xs={12}>
           <ContentWrapper>
             <Content>
               <Title>Husk å Danse</Title>
@@ -42,7 +42,7 @@ const CanDo = () => {
             <Overlay />
           </ContentWrapper>
         </Grid>
-        <Grid item md={3}>
+        <Grid item lg={3} md={4} sm={6} xs={12}>
           <ContentWrapper>
             <Content>
               <Title>ODIS</Title>
@@ -54,7 +54,7 @@ const CanDo = () => {
             <Overlay />
           </ContentWrapper>
         </Grid>
-        <Grid item md={3}>
+        <Grid item lg={3} md={4} sm={6} xs={12}>
           <ContentWrapper>
             <Content>
               <Title>Spilleadferd</Title>
@@ -66,7 +66,7 @@ const CanDo = () => {
             <Overlay />
           </ContentWrapper>
         </Grid>
-        <Grid item md={3}>
+        <Grid item lg={3} md={4} sm={6} xs={12}>
           <ContentWrapper>
             <Content>
               <Title>Digitalt <br />introprogram</Title>
@@ -78,7 +78,7 @@ const CanDo = () => {
             <Overlay />
           </ContentWrapper>
         </Grid>
-        <Grid item md={3}>
+        <Grid item lg={3} md={4} sm={6} xs={12}>
           <ContentWrapper>
             <Content>
               <Title>Vold i nære <br/>relasjoner</Title>

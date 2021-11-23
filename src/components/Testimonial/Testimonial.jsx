@@ -12,7 +12,7 @@ const Testimonial = () => {
   return (
     <TestimonialContainer>
       <Grid container spacing={3}>
-        <Grid item md={6}>
+        <Grid item md={6} sm={12} xs={12}>
           <LeftContent>
             <SmallTitle>Testimonials</SmallTitle>
             <Title>
@@ -20,7 +20,7 @@ const Testimonial = () => {
             </Title>
           </LeftContent>
         </Grid>
-        <Grid item md={6}>
+        <Grid item md={6} sm={12} xs={12}>
           <RightContent>
             <TestimonialCarousel />
           </RightContent>

@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const OurExpertiseContainer = styled.div`
   margin-bottom: 100px;
-  padding: 80px 8% 0px 8%;
+  padding: 100px  10%;
   background: #fafaff;
 `;
 
@@ -17,8 +17,11 @@ export const Title = styled.h2`
   line-height: 64px;
   margin-bottom: 10px;
   text-transform: capitalize;
-
   color: #14183e;
+
+  @media screen and (max-width:512px){
+    font-size:40px;
+  }
 `;
 
 export const Dash = styled.div`
@@ -36,16 +39,20 @@ export const Paragraph = styled.p`
 `;
 
 export const RightContent = styled.div`
-  position: relative;
-  height: 100%;
-  padding: 0 20px;
 `;
 
 export const ImageWrapper = styled.div`
-  position: absolute;
-  bottom: -15px;
+position:relative;
 `;
 
 export const FormalImage = styled.img`
   width: 100%;
 `;
+
+export const VectorImage = styled.img`
+position:absolute;
+top:25px;
+right:0;
+width:90px;
+height:90px;
+`

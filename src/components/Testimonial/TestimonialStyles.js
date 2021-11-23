@@ -3,6 +3,10 @@ import styled from "styled-components";
 export const TestimonialContainer = styled.div`
 margin-bottom:100px;
 padding: 0px 15%;
+
+@media screen and (max-width:768px){
+  padding: 0px 10%;
+}
 `;
 export const SmallTitle = styled.h4`
   font-family: Poppins;
@@ -24,6 +28,10 @@ margin:0;
 line-height: 64px;
 text-transform: capitalize;
 color: #14183E;
+
+@media screen and (max-width:600px){
+  font-size: 35px;
+}
 `
 export const LeftContent = styled.div`
 text-align:left;

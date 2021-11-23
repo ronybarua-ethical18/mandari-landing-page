@@ -1,4 +1,7 @@
-import image from "./images/3.png";
+import image from "./images/19.png";
+import imageTwo from "./images/19.jpg";
+import imageThree from "./images/20.png";
+import imageFour from "./images/3.png";
 export const testimonials = [
   {
     id: 1,
@@ -10,7 +13,7 @@ export const testimonials = [
   },
   {
     id: 2,
-    img: image,
+    img: imageTwo,
     feedback:
       "“On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.”",
     name: "James Bond",
@@ -18,7 +21,7 @@ export const testimonials = [
   },
   {
     id: 3,
-    img: image,
+    img: imageThree,
     feedback:
       "“On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.”",
     name: "Chris Tomas",
@@ -26,7 +29,7 @@ export const testimonials = [
   },
   {
     id: 4,
-    img: image,
+    img: imageFour,
     feedback:
       "“On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.”",
     name: "Kelvin Clain",

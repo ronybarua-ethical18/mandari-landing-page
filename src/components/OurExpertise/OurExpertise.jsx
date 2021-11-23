@@ -8,14 +8,16 @@ import {
   Paragraph,
   RightContent,
   FormalImage,
-  ImageWrapper
+  ImageWrapper,
+  VectorImage
 } from "./OurExpertiseStyles";
 import formal from "../../images/3.png";
+import vector from "../../images/2.png";
 const OurExpertise = () => {
   return (
     <OurExpertiseContainer>
-      <Grid container spacing={2}>
-        <Grid item md={6}>
+      <Grid container spacing={4} direction="row"  alignItems="center">
+        <Grid item md={6} sm={12} xs={12}>
           <LeftContent>
             <Title>Hvem er vi?</Title>
             <Dash />
@@ -34,9 +36,10 @@ const OurExpertise = () => {
             </Paragraph>
           </LeftContent>
         </Grid>
-        <Grid item md={6}>
+        <Grid item md={6} sm={12} xs={12}>
           <RightContent>
             <ImageWrapper>
+            <VectorImage src={vector} alt="formal" />
               <FormalImage src={formal} alt="formal" />
             </ImageWrapper>
           </RightContent>
